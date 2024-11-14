@@ -1,0 +1,403 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #bb2525;
+    box-shadow: 2px 2px 5px black;
+    height: 75px;
+}
+
+header img{
+    width: 200px;
+    left: 80px;
+    padding-top:13px;
+    position: absolute;
+}
+header img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);}
+    header{overflow:hidden;}
+
+.frente{
+    width: 100%;
+    height: 100%;
+}
+.frente img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(40%);
+}
+.fondoTitulo{
+    width: 76%;
+    height: 18%;
+    bottom: 20%;
+    text-align: center;
+    position: absolute;
+    top: 48%;
+    left: 6%;
+    padding-bottom: 18px;
+    border-radius: 75px;
+
+}
+.fondoTitulo .fondo1{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    position: absolute;
+    font-weight: 700;
+    right: 6px;
+    content: none;
+    margin: 0%;
+}
+.fondoTitulo .imagen{
+    position: absolute;
+    width: 70%;
+    height: 20%;
+}
+.paginaInstagram a img{
+    top: 10px;
+    position: absolute;
+    width: 35px;
+    height: 55px;
+    right: 220px; 
+}
+.paginaInstagram img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);}
+    .paginaInstagram{overflow:hidden;}
+
+.paginaFacebook a img{
+    top: 10px;
+    position: absolute;
+    width: 35px;
+    height: 55px;
+    right: 160px;
+}
+.paginaFacebook img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);}
+    .paginaFacebook{overflow:hidden;}
+
+.Ubicacion a img{
+    top: 10px;
+    position: absolute;
+    width: 35px;
+    height: 55px;
+    right: 100px;
+    padding: 0%;
+}
+.Ubicacion img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);}
+    .Ubicacion{overflow:hidden;}
+
+.subSolapa{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 75px;
+    opacity: .3;
+    padding: 0%;
+}
+.subSolapa .inicio{
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    bottom: -24px;
+    position: absolute;
+    left: 195px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 0%;
+}
+.subSolapa .inicio:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
+
+.subSolapa .productos{
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    bottom: -24px;
+    position: absolute;
+    left: 470px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 0%;
+}
+.subSolapa .productos:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
+
+.subSolapa .servicios{
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    bottom: -24px;
+    position: absolute;
+    right: 200px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 0%;
+}
+.subSolapa .servicios:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
+    
+.sobreNosotros{
+    background-color: #bb2525;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 655px;
+}
+.sobreNosotros h2{
+    width: 100%;
+    color: white;
+    position: absolute;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: mover-izquierda-derecha 2s 1;
+    overflow: hidden;
+    animation-fill-mode: forwards;
+
+}
+@keyframes mover-izquierda-derecha{
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(-1%);
+    }
+}
+
+.sobreNosotros p{
+    color: white;
+    position: absolute;
+    text-transform: capitalize;
+    top: 55px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 19px;
+    animation: mover-izquierda-derecha 2s 1;
+    overflow: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes mover-izquierda-derecha{
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(-1%);
+    }
+}
+
+
+.frente2{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 1345px;
+}
+.frente2 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 1px;
+    filter: brightness(40%);
+}
+.mapa{
+    position: absolute;
+    width: 100%;
+    height: 356px;
+    margin: 0 auto;
+    top: 940px;
+    text-align: center;
+}
+
+.TituloMapa{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    color: white; 
+    top: 860px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.TituloMapa p{
+    width: 271px;
+    height: 25px;
+    position: absolute;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.mapa iframe{
+    width: 890px;
+    height: 350px;
+    right: 500px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    font-family: inherit;
+    background-color: whitesmoke;
+    padding: 15px;
+    display: inline-block;
+    color:#bb2525;
+    border-radius: 25px;
+    position: absolute;
+    top: 1420px;
+    right: 580px;
+    width: 355px;
+}
+
+h4{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+label{font-size: 18px;}
+
+input{font-size: 16px;
+    display: block; 
+    border-radius: 4px;
+    width: 98%;}
+    .form button{font-family: Arial, Helvetica, sans-serif;
+        width: 98.9%;
+        padding: 5px;
+       font-size: 16px;}
+
+.form button:hover{background-color: #D2B48C;
+              transition: 1.5s;}
+
+.navegacion{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    color: white;
+    top: 1530px;
+    right: 15%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 0px;
+    border-radius: 5px;
+
+}
+.navegacion p{
+    position: absolute;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 900;
+    margin: 0px;
+}
+.navegacion .InicioDeNavegacion{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 80px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
+.InicioDeNavegacion:hover{background-color: red;
+    transition: 1.5s;}
+.navegacion .InicioDeNavegacion p{
+    color: white;
+}
+.navegacion .ProductosDeNavegacion{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 150px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+
+}
+.ProductosDeNavegacion:hover{background-color: red;
+    transition: 1.5s;}
+.navegacion .ProductosDeNavegacion p{
+    color: white;
+}
+.navegacion .ServiciosDeNavegacion{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 230px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
+.ServiciosDeNavegacion:hover{background-color: red;
+    transition: 1.5s;}
+.navegacion .ServiciosDeNavegacion p{
+    color: white;
+}
+
+.box{
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 50px;
+    left: 40%;
+}
+
+.input {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 4px solid black;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    color: none;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 350px;
+    background:none;
+    border-radius: 10px;
+}
+.box i{
+    position: relative;
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color:none;
+    transition: .1s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+  

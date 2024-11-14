@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bicicletas</title>
+    <link rel ="stylesheet" href="/css/estilos.bicicletas.css">
+    <link rel="icon" href="/iconos/icono.ico">
+</head>
+<body>
+    <header>
+        <a href="/index.html" class="imagen">
+            <img src="/imagenes/LOGO.png">
+        </a>
+    </header>
+
+    <div class="frente">
+    
+    </div>
+    <div class="paginaFacebook">
+        <a href="https://www.facebook.com/BICICLETASEVOLUTIONWEB/?locale=es_LA">
+            <img src="/iconos/bxl-facebook.svg" alt="">
+        </a>
+    </div>
+    <div class="paginaInstagram">
+        <a href="https://www.instagram.com/bicicletas_evolutionok/">
+            <img src="/iconos/bxl-instagram.svg" alt="">
+        </a>
+    </div>
+    <div class="Ubicacion">
+        <a href="https://www.google.com/maps/dir//Godoy+Cruz+36,+M5519+San+Jos%C3%A9,+Mendoza/@-32.8667539,-69.1887744,8z/data=!4m8!4m7!1m0!1m5!1m1!1s0x967e092360af55fd:0x214bb5b2443d498c!2m2!1d-68.8290647!2d-32.8888049?entry=ttu/">
+            <img src="/iconos/bxs-map.svg" alt="">
+        </a>
+    </div>
+    <div class="subSolapa">
+        <a href="/index.html" class="inicio">
+            <p>inicio</p>
+        </a>
+        <a href="/html/productos.html" class="productos">
+            <p>productos</p>
+        </a>
+        <a href="/html/servicios.html" class="servicios">
+            <p>servicios</p>
+        </a>
+    </div>
+    
+    <div class="MarcasBicicletas">
+        <p>nuestras Bicicletas</p>
+    </div>
+
+    <div class="datos">
+        <div class="search">
+            <label><strong>Seleccione el tipo de categoria que desea buscar...</strong></label>
+            <select name="" id="categoria">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                </select>
+                <label><strong>Ingrese su rango de precios</strong></label>
+                <label><strong>Desde $</strong></label>
+                <input id="desde" type="numero" name="numero">
+                <div class="error-message" id="error-numero" style="display: none; color: rgb(255, 238, 2);"></div>
+                <label><strong>Hasta $</strong></label>
+                <input type="numero" name="numero" id="hasta">
+                <div class="error-message" id="error-numero" style="display: none; color: rgb(255, 238, 2);"></div>
+                <button onclick="BuscarProductos()"><strong>Enviar</strong></button>
+        </div>
+    </div>
+
+    <div id="contenedor_bicis" class="todasLasBicis">
+    </div>
+
+    <script src="../jscrip/script.js"></script>
+    <script src="../jscrip/filtro.js"></script>
+    <script>
+        getBicis()
+    </script>
+</body>
+</html>

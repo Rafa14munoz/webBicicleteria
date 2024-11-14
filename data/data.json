@@ -1,0 +1,121 @@
+{
+  "todasLasBicis": [
+    {
+      "front": {
+        "class": "SBK",
+        "imgSrc": "/imagenes/bicicletas/bici1-SBK.png",
+        "alt": "",
+        "title": "bicicleta SBK"
+      },
+      "back": {
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, at!",
+        "categoria": 1,
+        "precio": 350000
+      }
+    },
+    {
+      "front": {
+        "class": "VOLTA",
+        "imgSrc": "/imagenes/bicicletas/bici2-VOLTA.png",
+        "alt": "",
+        "title": "bicicleta VOLTA"
+      },
+      "back": {
+        "description": "Bici wachiwow",
+        "categoria": 1,
+        "precio": 550000
+      }
+    },
+    {
+      "front": {
+        "class": "GLOCK",
+        "imgSrc": "/imagenes/bicicletas/bici3-GLOCK.png",
+        "alt": "",
+        "title": "bicicleta GLOCK"
+      },
+      "back": {
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, at!",
+        "categoria": 2,
+        "precio": 360000
+      }
+    },
+    {
+      "front": {
+        "class": "THUNDER",
+        "imgSrc": "/imagenes/bicicletas/bici4-THUNDER.png",
+        "alt": "",
+        "title": "bicicleta THUNDER"
+      },
+      "back": {
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, at!",
+        "categoria": 2,
+        "precio": 400000
+      }
+    },
+    {
+      "front": {
+        "class": "SBK-MONOPLATO",
+        "imgSrc": "/imagenes/bicicletas/bici5-SBK2.png",
+        "alt": "",
+        "title": "bicicleta SBK2"
+      },
+      "back": {
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, at!",
+        "categoria": 2,
+        "precio": 410000
+      }
+    },
+    {
+      "front": {
+        "class": "BICI-ELECTRICA",
+        "imgSrc": "/imagenes/bicicletas/bici6-ELECTRICA.png",
+        "alt": "",
+        "title": "bicicleta ELECTRICA"
+      },
+      "back": {
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, at!",
+        "categoria": 1,
+        "precio": 480000
+      }
+    },
+    {
+      "front": {
+        "class": "TOPMEGA-THOR",
+        "imgSrc": "/imagenes/bicicletas/bici14-TOPMEGA-THOR.png",
+        "alt": "",
+        "title": "bicicleta TOPMEGA-THOR"
+      },
+      "back": {
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, at!",
+        "categoria": 1,
+        "precio": 415000
+      }
+    },
+    {
+      "front": {
+        "class": "TOPMEGA-FLAMINGO",
+        "imgSrc": "/imagenes/bicicletas/bici15-TOPMEGA-FLAMINGO.png",
+        "alt": "",
+        "title": "bicicleta TOPMEGA-FLAMINGO"
+      },
+      "back": {
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, at!",
+        "categoria": 1,
+        "precio": 435000
+      }
+    },
+    {
+      "front": {
+        "class": "TOPMEGA-REGAL",
+        "imgSrc": "/imagenes/bicicletas/bici16-TOPMEGA-REGAL.png",
+        "alt": "",
+        "title": "bicicleta TOPMEGA-REGAL"
+      },
+      "back": {
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, at!",
+        "categoria": 1,
+        "precio": 475000
+      }
+    }   
+  ]
+}

@@ -1,0 +1,359 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #bb2525;
+    box-shadow: 2px 2px 5px black;
+    height: 75px;
+}
+header img{
+    width: 200px;
+    margin-left:115px ;
+    padding-top:13px;
+}
+header img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.2);}
+    header{overflow:hidden;}
+
+.frente{
+    width: 100%;
+    height: 132%;
+    background-color: #fff5e1;
+    position: absolute;
+}
+.paginaInstagram a img{
+    top: 10px;
+    position: absolute;
+    width: 35px;
+    height: 55px;
+    right: 220px;
+}
+.paginaInstagram img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);}
+    .paginaInstagram{overflow:hidden;}
+
+.paginaFacebook a img{
+    top: 10px;
+    position: absolute;
+    width: 35px;
+    height: 55px;
+    right: 160px;
+}
+.paginaFacebook img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);}
+    .paginaFacebook{overflow:hidden;}
+
+.Ubicacion a img{
+    top: 10px;
+    position: absolute;
+    width: 35px;
+    height: 55px;
+    right: 100px;
+    padding: 0%;
+}
+.Ubicacion img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);}
+    .Ubicacion{overflow:hidden;}
+
+.subSolapa{
+    background-color:black;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 75px;
+    
+    padding: 0%;
+}
+.subSolapa .inicio{
+    color:white;
+    font-size: 25px;
+    padding: 5px;
+    bottom: -24px;
+    position: absolute;
+    left: 195px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 0%;
+}
+.subSolapa .inicio:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
+
+.subSolapa .productos{
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    bottom: -24px;
+    position: absolute;
+    left: 470px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 0%;
+}
+.subSolapa .productos:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
+
+.subSolapa .servicios{
+    color:white;
+    font-size: 25px;
+    padding: 5px;
+    bottom: -24px;
+    position: absolute;
+    right: 200px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 0%;
+}
+.subSolapa .servicios:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
+
+.MarcasBicicletas{
+    background-color: black;
+    width: 100%;
+    height:40px;
+    position: absolute;
+    top: 140px;
+}
+
+.MarcasBicicletas p{
+    width: 438px;
+    position: absolute;
+    padding: 5px;
+    bottom: 0px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color:white;
+    font-size: 24px;
+    margin: 0px;
+    animation: mover-izquierda-derecha 2s 1;
+    left: 20px;
+    overflow: hidden;
+    animation-fill-mode: forwards;
+}
+
+.datos {
+    padding-top: 10px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-content: space-between;
+    justify-content: center;
+    align-content: center;
+    background-color: #5f0432;
+}
+
+.datos label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f3f3f3;
+}
+
+.datos input {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    box-shadow: 0 2px 15px 3px rgba(0, 0, 0, 0.1)
+}
+
+input[type="text"] {
+    width: 80px;
+  }
+
+.datos select {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    box-shadow: 0 2px 15px 3px rgba(0, 0, 0, 0.1)
+}
+
+button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: white;
+    color: black;
+    border-radius: 2em;
+    border: none;
+    outline: 2px solid black;
+    outline-offset: 3px;
+}
+
+button:hover {
+    background-color: #D2B48C;
+    color: black;
+    transition: 1.5s;
+}
+@keyframes mover-izquierda-derecha{
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(95%);
+    }
+}
+.todasLasBicis{
+    width: 100%;
+    height: 98%;
+    margin-top: 135px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.SBK{
+    width:300px;
+    height:200px;
+    left: 50px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.SBK .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+.SBK .front{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+.SBK .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: white;
+}
+.SBK .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background:rgba(0, 0, 0, .4);
+    text-align: center;
+}
+.SBK .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: rgba(3, 35, 54);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.descripcion_bici {
+    margin: 15px;
+}
+
+.SBK .back .precio{
+    border-top: solid 1px white;
+    height: 30px;
+    line-height: 10px;
+}
+
+.precio {
+    margin: 15px;
+}
+
+.SBK:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+.SBK:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.todasLasBicis .VOLTA img{
+    width:300px;
+    height:200px;
+    left: 420px;
+    position: absolute;
+}
+.todasLasBicis .VOLTA img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
+
+.todasLasBicis .GLOCK img{
+    width:300px;
+    height:200px;
+    left: 820px;
+    position: absolute;
+}
+.todasLasBicis .GLOCK img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
+
+.todasLasBicis .THUNDER img{
+    width:380px;
+    height:300px;
+    right:770px;
+    top: 190px;
+    position: absolute;
+}
+.todasLasBicis .THUNDER img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
+
+.todasLasBicis .SBK-MONOPLATO img{
+    width:330px;
+    height:240px;
+    right:386px;
+    top: 228px;
+    position: absolute;
+}
+.todasLasBicis .SBK-MONOPLATO img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
+
+.todasLasBicis .BICI-ELECTRICA img{
+    width:330px;
+    height:240px;
+    right:0px;
+    top: 228px;
+    position: absolute;
+}
+.todasLasBicis .BICI-ELECTRICA img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
+
+.todasLasBicis .TOPMEGA-THOR img{
+    width:350px;
+    height:240px;
+    right:770px;
+    top: 515px;
+    position: absolute;
+}
+.todasLasBicis .TOPMEGA-THOR img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
+
+.todasLasBicis .TOPMEGA-FLAMINGO img{
+    width:350px;
+    height:390px;
+    right:370px;
+    top: 440px;
+    position: absolute;
+}
+.todasLasBicis .TOPMEGA-FLAMINGO img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
+
+.todasLasBicis .TOPMEGA-REGAL img{
+    width:330px;
+    height:270px;
+    right:0px;
+    top: 500px;
+    position: absolute;
+}
+.todasLasBicis .TOPMEGA-REGAL img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.1);}
+    .subSolapa{overflow:hidden;}
